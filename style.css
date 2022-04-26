@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .hero {
     background-color: #1f2937;
     height: 530px;
@@ -8,7 +11,7 @@
 
 .title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight:bolder;
     color: #f9faf8;
 }
 
@@ -80,31 +83,42 @@ h2 {
     border-radius: 18px;
     font-size: 20px;
 }
-.boxes{
+
+.boxes {
     font-weight: 400;
     display: flex;
     justify-content: center;
 }
-.content{
+
+.content {
     text-align: center;
     height: 420px;
 }
-blockquote{
+
+blockquote {
     font-size: 36px;
     font-weight: lighter;
-    font-family:monospace
+    font-family: italic;
+    color: #1f2937;
+    margin-bottom: 3px;
 }
-figcaption{
+
+figcaption {
     font-size: 22px;
+    display: flex;
+    justify-content: end;
+    margin-top: 3px;
 }
-.quotes{
+
+.quotes {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
     height: 420px;
 }
-.action{
+
+.action {
     background-color: #3882f6;
     height: 150px;
     width: 80%;
@@ -116,18 +130,31 @@ figcaption{
     justify-content: space-around;
     border-radius: 12px;
 }
-#keen{
+
+#keen {
     font-size: 30px;
     color: white;
     margin-bottom: 4px;
 }
-#keep{
+
+#keep {
     color: white;
     font-size: 20px;
     margin-top: 4px;
     font-weight: 100;
 }
-#but{
+
+#but {
     border: 2px solid white;
 
+}
+
+.foot {
+    background-color: #1f2937;
+    height: 100px;
+    color: #f9faf8;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
